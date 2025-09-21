@@ -1,0 +1,4 @@
+Synthetic data generation time on AMD Turin SoC: 10478.22 seconds
+
+Data quality check process done in 37521.54 seconds
+Data quality check process done in 45.15 seconds

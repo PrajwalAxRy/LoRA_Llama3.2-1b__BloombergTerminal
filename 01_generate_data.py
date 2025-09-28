@@ -12,8 +12,6 @@ sys.path.append("..")
 from scripts.llm_call import llm_call
 
 
-
-
 ## PyDantic schema for the extracted data
 class QAPair(BaseModel):
     question: str

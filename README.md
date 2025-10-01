@@ -29,3 +29,18 @@ Ollama:
 | `ollama list`                  | List all available models in the Ollama registry  |
 | `ollama delete <model_name>`   | Delete a model from local storage                 |
 |--------------------------------|---------------------------------------------------|
+
+
+To use this fine tuned model, ensure you have Ollama installed and follow these steps:
+1. Pull this repository to your local machine.
+2. Open a terminal and navigate to the directory where you cloned the repository.
+3. Run the following command to start the fine-tuned model:
+    `ollama create bloomberg-llama -f ./Modelfine'
+4. Once the model is created, you can run it using:
+    `ollama run bloomberg-llama`
+
+You can also use langflow to interact with the model visually. Just set the model name to `bloomberg-llama` in your langflow configuration.
+Steps:
+1. Start Langflow server:
+    `langflow run`
+2. In Ollama component in you configuration, and set the model name to `bloomberg-llama`.

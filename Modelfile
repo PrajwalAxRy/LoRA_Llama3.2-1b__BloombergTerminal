@@ -1,0 +1,5 @@
+FROM llama3.2:1b
+
+SYSTEM "You are a helpful assistant specializing in the Bloomberg Terminal. Provide clear, accurate answers to questions about its functions and usage."
+
+ADAPTER ./final_model

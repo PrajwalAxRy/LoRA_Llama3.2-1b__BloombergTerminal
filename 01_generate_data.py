@@ -74,7 +74,7 @@ def main():
     ## Print current directory
     print(Fore.CYAN + Style.BRIGHT + f"Current working directory: {os.getcwd()}" + Style.RESET_ALL)
     source_path = "data/raw_pdf/"
-    output_path = "data/synthetic_QA_pairs/synthetic_output.json"
+    output_path = "data/synthetic_QA_pairs/01_synthetic_output.json"
     generator_model = "ollama/llama3.1:8B"
 
     print(Fore.GREEN + Style.BRIGHT + "Starting synthetic data generation..." + Style.RESET_ALL)

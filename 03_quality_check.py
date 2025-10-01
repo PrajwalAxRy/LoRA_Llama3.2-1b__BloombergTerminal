@@ -50,9 +50,9 @@ def main():
 
     start_time = time.time()
 
-    INPUT_FILE = "data/synthetic_QA_pairs/synthetic_output_processed.json"
-    QUALITY_OUTPUT_FILE = "data/synthetic_QA_pairs/synthetic_output_quality_checked.json"
-    FULL_RESULTS_FILE = "data/synthetic_QA_pairs/synthetic_output_assessment_results.json"
+    INPUT_FILE = "data/synthetic_QA_pairs/02_synthetic_output_processed.json"
+    QUALITY_OUTPUT_FILE = "data/synthetic_QA_pairs/03_synthetic_output_quality_checked.json"
+    FULL_RESULTS_FILE = "data/synthetic_QA_pairs/03_synthetic_output_assessment_results.json"
     SCORING_MODEL = "ollama/llama3.1:8B"
 
     ACCURACY_THRESHOLD = 7

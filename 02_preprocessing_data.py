@@ -6,8 +6,8 @@ def main():
         Reads the synthetic data from 'synthetic_data.json', processes it to extract Q&A pairs.
     """
 
-    INPUT_FILE = "data/synthetic_QA_pairs/synthetic_output.json"
-    OUTPUT_FILE = "data/synthetic_QA_pairs/synthetic_output_processed.json"
+    INPUT_FILE = "data/synthetic_QA_pairs/01_synthetic_output.json"
+    OUTPUT_FILE = "data/synthetic_QA_pairs/02_synthetic_output_processed.json"
 
     print(Fore.GREEN + Style.BRIGHT + "--- Starting Phase 2, Step 1: Preprocessing ---" + Style.RESET_ALL)
 

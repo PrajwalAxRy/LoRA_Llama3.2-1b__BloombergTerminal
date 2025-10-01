@@ -2,3 +2,5 @@ venv/
 .venv/
 __pycache../
 .env
+model_cache/
+checkpoints/

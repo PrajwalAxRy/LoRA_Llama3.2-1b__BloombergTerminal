@@ -28,7 +28,6 @@ Ollama:
 | `ollama run <model_name>`      | Run a model locally                               |
 | `ollama list`                  | List all available models in the Ollama registry  |
 | `ollama delete <model_name>`   | Delete a model from local storage                 |
-|--------------------------------|---------------------------------------------------|
 
 
 To use this fine tuned model, ensure you have Ollama installed and follow these steps:

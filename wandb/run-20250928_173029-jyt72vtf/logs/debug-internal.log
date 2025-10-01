@@ -1,0 +1,11 @@
+{"time":"2025-09-28T17:30:30.112733108Z","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-28T17:30:30.427464967Z","level":"INFO","msg":"stream: created new stream","id":"jyt72vtf"}
+{"time":"2025-09-28T17:30:30.428488144Z","level":"INFO","msg":"stream: started","id":"jyt72vtf"}
+{"time":"2025-09-28T17:30:30.428696766Z","level":"INFO","msg":"handler: started","stream_id":"jyt72vtf"}
+{"time":"2025-09-28T17:30:30.428728137Z","level":"INFO","msg":"writer: started","stream_id":"jyt72vtf"}
+{"time":"2025-09-28T17:30:30.428743614Z","level":"INFO","msg":"sender: started","stream_id":"jyt72vtf"}
+{"time":"2025-09-28T17:50:51.040516152Z","level":"INFO","msg":"stream: closing","id":"jyt72vtf"}
+{"time":"2025-09-28T17:50:51.899210567Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-28T17:50:52.236063438Z","level":"INFO","msg":"handler: closed","stream_id":"jyt72vtf"}
+{"time":"2025-09-28T17:50:52.237528452Z","level":"INFO","msg":"sender: closed","stream_id":"jyt72vtf"}
+{"time":"2025-09-28T17:50:52.237701038Z","level":"INFO","msg":"stream: closed","id":"jyt72vtf"}

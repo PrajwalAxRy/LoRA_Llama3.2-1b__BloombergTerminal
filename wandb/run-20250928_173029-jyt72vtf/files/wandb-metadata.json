@@ -1,0 +1,36 @@
+{
+  "os":  "Linux-6.6.97+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.11",
+  "startedAt":  "2025-09-28T17:30:29.604397Z",
+  "program":  "/content/drive/MyDrive/Colab Notebooks/LORA_finetuning_bloombergTerminal/04_train_model.py",
+  "codePath":  "04_train_model.py",
+  "codePathLocal":  "04_train_model.py",
+  "email":  "prajwalsingh7512@gmail.com",
+  "root":  "/content/drive/MyDrive/Colab Notebooks/LORA_finetuning_bloombergTerminal",
+  "host":  "9a33fb300f11",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "44988190720"
+    }
+  },
+  "memory":  {
+    "total":  "13605658624"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-a10df6e2-571d-6650-1802-96711c9ac863"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "05ge1w6fvgr77rapqvt3gay1ikz3sab6"
+}

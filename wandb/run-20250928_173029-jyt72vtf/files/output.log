@@ -1,0 +1,42 @@
+  0% 0/1526 [00:00<?, ?it/s]/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py:929: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+ 12% 190/1526 [20:10<2:17:02,  6.15s/it]Traceback (most recent call last):
+{'loss': 2.2618, 'grad_norm': 0.9759458303451538, 'learning_rate': 0.000199982835416218, 'entropy': 1.9162460446357727, 'num_tokens': 14028.0, 'mean_token_accuracy': 0.6333984375, 'epoch': 0.05}
+{'loss': 1.3771, 'grad_norm': 0.8050194978713989, 'learning_rate': 0.0001999235086175149, 'entropy': 1.34555903673172, 'num_tokens': 28420.0, 'mean_token_accuracy': 0.76015625, 'epoch': 0.09}
+{'loss': 1.2829, 'grad_norm': 1.7916972637176514, 'learning_rate': 0.00019982183283299146, 'entropy': 1.309753942489624, 'num_tokens': 42190.0, 'mean_token_accuracy': 0.766796875, 'epoch': 0.14}
+{'loss': 1.1824, 'grad_norm': 1.2946175336837769, 'learning_rate': 0.00019967785115427268, 'entropy': 1.151102650165558, 'num_tokens': 56489.0, 'mean_token_accuracy': 0.772265625, 'epoch': 0.18}
+{'loss': 1.1294, 'grad_norm': 1.150091528892517, 'learning_rate': 0.0001994916246028154, 'entropy': 1.1110010981559753, 'num_tokens': 70906.0, 'mean_token_accuracy': 0.76796875, 'epoch': 0.23}
+{'loss': 1.0545, 'grad_norm': 0.7547014355659485, 'learning_rate': 0.00019926323210404663, 'entropy': 1.0785635709762573, 'num_tokens': 85230.0, 'mean_token_accuracy': 0.782421875, 'epoch': 0.28}
+{'loss': 1.0455, 'grad_norm': 0.8123488426208496, 'learning_rate': 0.00019899277045391388, 'entropy': 1.0438844382762908, 'num_tokens': 99475.0, 'mean_token_accuracy': 0.780078125, 'epoch': 0.32}
+{'loss': 1.0497, 'grad_norm': 0.8621938824653625, 'learning_rate': 0.0001986803542778616, 'entropy': 1.0720040798187256, 'num_tokens': 113676.0, 'mean_token_accuracy': 0.779296875, 'epoch': 0.37}
+{'loss': 1.0576, 'grad_norm': 0.8584722876548767, 'learning_rate': 0.00019832611598225128, 'entropy': 1.028846663236618, 'num_tokens': 127901.0, 'mean_token_accuracy': 0.76953125, 'epoch': 0.41}
+{'loss': 1.0665, 'grad_norm': 0.8573007583618164, 'learning_rate': 0.00019793020569824598, 'entropy': 1.0680593490600585, 'num_tokens': 142207.0, 'mean_token_accuracy': 0.777734375, 'epoch': 0.46}
+{'loss': 1.0415, 'grad_norm': 0.763518214225769, 'learning_rate': 0.00019749279121818235, 'entropy': 1.0557719349861145, 'num_tokens': 156457.0, 'mean_token_accuracy': 0.778125, 'epoch': 0.5}
+{'loss': 0.9949, 'grad_norm': 0.6973528861999512, 'learning_rate': 0.00019701405792445814, 'entropy': 1.0050742030143738, 'num_tokens': 170630.0, 'mean_token_accuracy': 0.780859375, 'epoch': 0.55}
+{'loss': 1.01, 'grad_norm': 0.7344457507133484, 'learning_rate': 0.00019649420871096438, 'entropy': 1.0245252072811126, 'num_tokens': 184927.0, 'mean_token_accuracy': 0.7796875, 'epoch': 0.6}
+{'loss': 0.9903, 'grad_norm': 0.6406323313713074, 'learning_rate': 0.00019593346389709603, 'entropy': 0.9934072971343995, 'num_tokens': 199072.0, 'mean_token_accuracy': 0.783984375, 'epoch': 0.64}
+{'loss': 0.9962, 'grad_norm': 0.7568467259407043, 'learning_rate': 0.00019533206113437785, 'entropy': 0.9776064574718475, 'num_tokens': 213209.0, 'mean_token_accuracy': 0.7859375, 'epoch': 0.69}
+{'loss': 0.9728, 'grad_norm': 0.6939734816551208, 'learning_rate': 0.00019469025530574396, 'entropy': 0.9928160548210144, 'num_tokens': 227454.0, 'mean_token_accuracy': 0.784375, 'epoch': 0.73}
+{'loss': 0.9515, 'grad_norm': 0.7203898429870605, 'learning_rate': 0.00019400831841751516, 'entropy': 0.9662544012069703, 'num_tokens': 241461.0, 'mean_token_accuracy': 0.7921875, 'epoch': 0.78}
+{'loss': 0.9583, 'grad_norm': 0.7247915863990784, 'learning_rate': 0.00019328653948411865, 'entropy': 0.9599487066268921, 'num_tokens': 256245.0, 'mean_token_accuracy': 0.788671875, 'epoch': 0.83}
+{'loss': 0.961, 'grad_norm': 0.6670858263969421, 'learning_rate': 0.00019252522440559977, 'entropy': 0.9615769445896148, 'num_tokens': 270442.0, 'mean_token_accuracy': 0.787890625, 'epoch': 0.87}
+  File "/content/drive/MyDrive/Colab Notebooks/LORA_finetuning_bloombergTerminal/04_train_model.py", line 200, in <module>
+    main()
+  File "/content/drive/MyDrive/Colab Notebooks/LORA_finetuning_bloombergTerminal/04_train_model.py", line 179, in main
+    trainer.train()
+  File "/usr/local/lib/python3.12/dist-packages/transformers/trainer.py", line 2328, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/trainer.py", line 2672, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/trl/trainer/sft_trainer.py", line 1189, in training_step
+    return super().training_step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/trainer.py", line 4009, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/trl/trainer/sft_trainer.py", line 1154, in compute_loss
+    shift_logits = outputs.logits[..., :-1, :].contiguous()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.45 GiB. GPU 0 has a total capacity of 14.74 GiB of which 2.00 GiB is free. Process 13236 has 12.61 GiB memory in use. Of the allocated memory 8.89 GiB is allocated by PyTorch, and 3.59 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

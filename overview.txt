@@ -2,3 +2,12 @@ Synthetic data generation time on AMD Turin SoC: 10478.22 seconds
 
 Data quality check process done in 37521.54 seconds
 Data quality check process done in 45.15 seconds
+
+Time taken for training: 165.33 minutes
+
+
+
+Total time taken: 165.33 minutes
+wandb: 
+wandb: 🚀 View run misty-donkey-6 at: 
+wandb: Find logs at: wandb/run-20250929_121726-xusbrtqc/log
